@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "incremental": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "./src/typings",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./typings/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dangerfile.ts",
+    "jest.config.ts",
+    "./src/__tests__/*"
+  ]
+}
