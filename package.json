@@ -24,7 +24,7 @@
   "devDependencies": {
     "@octokit/core": "^3.4.0",
     "@types/commander": "^2.12.2",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "danger": "^10.6.4",
     "eslint": "^7.26.0",
