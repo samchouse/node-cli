@@ -9,4 +9,5 @@ program
   .version(version, '-v, --version')
   .description("Xenfo's utility CLI!")
   .command('init <type>', 'init a new project')
+  .command('generate <type>', 'generate something')
   .parse(process.argv);
