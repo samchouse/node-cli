@@ -1,6 +1,6 @@
 {
   "name": "@xenfo/cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/src/index.js",
   "author": "Samuel Corsi-House <chouse.samuel@gmail.com>",
   "license": "MIT",
@@ -22,12 +22,10 @@
     "commander": "^7.2.0"
   },
   "devDependencies": {
-    "@octokit/core": "^3.4.0",
     "@types/commander": "^2.12.2",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.24.0",
-    "danger": "^10.6.4",
-    "eslint": "^7.26.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-jest": "^24.3.5",
     "eslint-plugin-prettier": "^3.4.0",
