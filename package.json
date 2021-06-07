@@ -8,13 +8,13 @@
     "dist/**/*"
   ],
   "scripts": {
+    "prepack": "husky install",
     "precli": "yarn build",
     "prepublish": "yarn build",
     "build": "tsc",
     "watch": "tsc --watch",
     "cli": "npm i -g .",
-    "lint": "eslint --ext .ts,.tsx .",
-    "test": "jest"
+    "lint": "eslint --ext .ts,.tsx ."
   },
   "dependencies": {
     "boxen": "^5.0.1",
@@ -29,6 +29,8 @@
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "prettier": "^2.3.1",
     "typescript": "^4.3.2"
   },
